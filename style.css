@@ -1,0 +1,119 @@
+:root{
+--Paleblue: hsl(225, 100%, 94%);
+--Brightblue: hsl(245, 75%, 52%);
+
+--Verypaleblue: hsl(225, 100%, 98%);
+--Desaturatedblue: hsl(224, 23%, 55%);
+--Darkblue: hsl(223, 47%, 23%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Paleblue);
+    height: 1440px;
+}
+.card{
+    border-radius: 15px;
+    margin-top: 50px;
+    position: relative;
+    left: 36%;
+    width: 450px;
+    height: 625px;
+    background: var(--Verypaleblue);
+}
+.illustrator img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.illustrator h3{
+    font-size: 24px;
+    font-weight: 900;
+    font-family: "Red Hat Display", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--Darkblue);
+}
+.illustrator p{
+    font-family: "Red Hat Display", sans-serif;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--Desaturatedblue);
+    font-size: 16px;
+}
+
+.plan{
+    position: relative;
+    margin-top: 15px;
+    left: 50px;
+    background-color: var(--Verypaleblue);
+    width: 350px;
+    height: 100px;
+    border-radius: 15px;
+}
+.plan img{
+   position: inherit;
+   top: 25px;
+   left: 35px;
+   justify-items: center;
+}
+.plan h3{
+    color: var(--Darkblue);
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 29px;
+    right: 20px;
+}
+.plan span{
+    font-weight: 500;
+    font-family: "Red Hat Display", sans-serif;
+    position: relative;
+    bottom: 25px;
+    left: 108px;
+    text-align: center;
+    color: var(--Desaturatedblue);
+}
+.plan a{
+    font-weight: 500;
+    font-family: "Red Hat Display", sans-serif;
+    position: relative;
+    bottom: 38px;
+    left: 180px;
+    text-align: center;
+    color: var(--Brightblue);
+}
+
+.payment_btn button{
+    font-weight: 700;
+    font-family: "Red Hat Display", sans-serif;
+    color: var(--Verypaleblue);
+    border: 1px solid transparent;
+    background: var(--Brightblue);
+    position: relative;
+    left: 45px;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 350px;
+    height: 55px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 10px 25px -6px rgba(1, 1, 1, 0.5);
+}
+.cancel h4{
+    color: var(--Desaturatedblue);
+    font-weight: 700;
+    font-family: "Red Hat Display", sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+.attribution{
+    margin-top: 30px;
+}
